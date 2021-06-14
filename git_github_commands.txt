@@ -1,0 +1,25 @@
+sudo apt install git
+git config --global user.name "Riddhi Sharma"
+git config --global user.email "sharmariddhi81@gmail.com"
+git config --global user.name -> to check if your name echoes
+git config --global --edit -> to edit the credentials 
+esc :wq
+git init
+git status
+git add Sum.java
+git commit -m "message"
+git log
+git add .
+git checkout hash
+git checkout master
+git branch
+git checkout branchname
+git checkout -b riddhi/multiply (riddhi/multiply is just a convention)
+git merge
+git remote -v
+git push -u origin main
+git push
+git push -u origin dev
+git clone repo_url
+
+
