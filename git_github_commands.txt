@@ -25,3 +25,15 @@ git remote add origin repo_url
 git remote -v
 git branch -M main
 git push -f origin main
+git reset --soft HEAD^
+git reset HEAD -- .
+git diff
+git rm
+git show
+git tag
+git pull
+git stash save
+git stash pop
+git stash list
+git stash drop
+
