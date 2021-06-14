@@ -21,5 +21,7 @@ git push -u origin main
 git push
 git push -u origin dev
 git clone repo_url
-
-
+git remote add origin repo_url
+git remote -v
+git branch -M main
+git push -f origin main
